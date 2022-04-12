@@ -1,0 +1,19 @@
+{
+  "article": [
+    {
+      "title": "new Article Udapte",
+      "content": "Article Update",
+      "id": 1
+    },
+    {
+      "title": "dasdasdas",
+      "content": "dasdasdas",
+      "id": 2
+    },
+    {
+      "title": "New Article",
+      "content": "ini article baru",
+      "id": 3
+    }
+  ]
+}
