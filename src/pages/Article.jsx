@@ -96,33 +96,35 @@ export default function Article() {
           ))
         )}
       </div>
-      <div className="container mx-auto px-10 py-10 mt-10 bg-blue-200">
-        <div className="max-w-lg flex flex-col mx-auto space-y-3">
-          <input
-            type="text"
-            name="title"
-            className="border border-blue-500 p-2 rounded-lg"
-            value={form.title}
-            onChange={handleChange}
-            placeholder="Title"
-          />
-          <input
-            type="text"
-            name="content"
-            className="border border-blue-500 p-2 rounded-lg"
-            value={form.content}
-            onChange={handleChange}
-            placeholder="Content"
-          />
-          <button
-            type="button"
-            className="px-4 py-1 bg-blue-500 rounded-lg text-white"
-            onClick={() => {
-              handleSubmit();
-            }}
-          >
-            {form.id ? "Edit" : "Create"}
-          </button>
+      <div className="bg-blue-200">
+        <div className="container mx-auto px-10 py-10 mt-10 ">
+          <div className="max-w-lg flex flex-col mx-auto space-y-3">
+            <input
+              type="text"
+              name="title"
+              className="border border-blue-500 p-2 rounded-lg"
+              value={form.title}
+              onChange={handleChange}
+              placeholder="Title"
+            />
+            <input
+              type="text"
+              name="content"
+              className="border border-blue-500 p-2 rounded-lg"
+              value={form.content}
+              onChange={handleChange}
+              placeholder="Content"
+            />
+            <button
+              type="button"
+              className="px-4 py-1 bg-blue-500 rounded-lg text-white"
+              onClick={() => {
+                handleSubmit();
+              }}
+            >
+              {form.id ? "Edit" : "Create"}
+            </button>
+          </div>
         </div>
       </div>
     </div>

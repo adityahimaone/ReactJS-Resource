@@ -6,14 +6,19 @@
       "id": 1
     },
     {
-      "title": "dasdasdas",
-      "content": "dasdasdas",
-      "id": 2
+      "title": "New Article updateeeee",
+      "content": "ini article update",
+      "id": 3
     },
     {
-      "title": "New Article",
-      "content": "ini article baru",
-      "id": 3
+      "title": "Article baru",
+      "content": "tes new article",
+      "id": 4
+    },
+    {
+      "title": "Article baru Update",
+      "content": "Content baru update",
+      "id": 5
     }
   ]
 }
