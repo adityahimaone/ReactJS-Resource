@@ -19,6 +19,11 @@
       "title": "Article baru Update",
       "content": "Content baru update",
       "id": 5
+    },
+    {
+      "title": "title update update",
+      "content": " update",
+      "id": 6
     }
   ]
 }

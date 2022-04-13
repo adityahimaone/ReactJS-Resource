@@ -6,7 +6,7 @@ const initialState = {
   error: null,
 };
 
-const userReducer = (state = initialState, action) => {
+const postReducer = (state = initialState, action) => {
   const { type, payload, error } = action;
   switch (type) {
     case `${GET_POST}_LOADING`:
@@ -81,4 +81,4 @@ const userReducer = (state = initialState, action) => {
   }
 };
 
-export default userReducer;
+export default postReducer;

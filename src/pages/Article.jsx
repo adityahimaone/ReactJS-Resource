@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import nextId from "react-id-generator";
+import { Link } from "react-router-dom";
+import { savePostByID } from "../redux/action/postByIDAction";
 
 import {
   getPost,
@@ -32,7 +33,6 @@ export default function Article() {
   };
 
   const handleEdit = (id, items) => {
-    dispatch(getPost(id));
     // console.log(id, items, "id, items");
     setform({
       ...form,
@@ -55,14 +55,11 @@ export default function Article() {
     dispatch(getPost());
   }, []);
 
-  console.log(post, "post");
   return (
     <div className="mx-auto">
-      <div className=" flex py-10 bg-blue-600 ">
-        <div className="container justify-center items-center">
-          <h1 className=" text-2xl text-white text-center font-bold">
-            Article
-          </h1>
+      <div className="flex py-10 bg-blue-600 ">
+        <div className="container mx-auto items-center">
+          <h1 className="text-2xl text-white text-center font-bold">Article</h1>
         </div>
       </div>
       <div className="container mx-auto grid px-10 gap-y-5">
@@ -77,6 +74,13 @@ export default function Article() {
               <h1 className="text-xl font-semibold">{item.title}</h1>
               <p>{item.content}</p>
               <div className="space-x-2 space-y-4">
+                <Link
+                  to={`/article/${item.id}`}
+                  className="px-4 py-1 bg-slate-500 rounded-lg text-white"
+                  onClick={() => dispatch(savePostByID(item))}
+                >
+                  Detail
+                </Link>
                 <button
                   className="px-4 py-1 bg-blue-500 rounded-lg text-white"
                   onClick={() => {
