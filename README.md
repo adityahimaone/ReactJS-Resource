@@ -8,6 +8,7 @@
 
 | Content                   | Description                    |
 | ------------------------- | ------------------------------ |
+| [React Basic Set][reactbasic] | React learning resource set |
 | [Redux Thunk][reduxthunk] | Fetching API using Redux Thunk |
 | [Google Auth][googleauth] | React Google Auth |
 | [React Typescript][reacttypescript] | Learn Basic Typescript |
@@ -15,6 +16,7 @@
 | [Data Visualization & Media Handling][datamediahandling] | NextJS data visualization using ChartJS, Media Handling, & CRUD|
 | [Coming Soon][coming]     | Coming Soon                    |
 
+[reactbasic]: https://github.com/adityahimaone/Task-Frontend-Alterra
 [reduxthunk]: https://github.com/adityahimaone/ReactJS-Resource/tree/redux-thunk
 [googleauth]: https://github.com/adityahimaone/react-oauth
 [datamediahandling]: https://github.com/adityahimaone/next-data-media-handling
