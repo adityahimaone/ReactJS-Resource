@@ -10,16 +10,6 @@ function App(): JSX.Element {
   //   new TodoClass("Learn React"),
   // ];
 
-  const [todos, setTodos] = useState<TodoClass[]>([]);
-
-  const addTodoHandler = (text: string): void => {
-    const newTodo = new TodoClass(text);
-    setTodos((prevTodos) => {
-      // [...prevTodos, newTodo]
-      return prevTodos.concat(newTodo);
-    });
-  };
-
   return (
     <div>
       <h1 style={{ textAlign: "center" }}>Todos</h1>
