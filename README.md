@@ -8,7 +8,8 @@
 
 | Content                   | Description                    |
 | ------------------------- | ------------------------------ |
-| [React Basic Set][reactbasic] | React learning resource set |
+| [React Basic Completed Set][reactbasic] | React learning resource set -> React Router V6, Redux Toolkit & Many More |
+| [React Builtin Hook][reactbuiltinhook] | UseReducer &  UseContext |
 | [React Custom Hook][reactcustomhook] | React Custom Hook |
 | [React HTTP Custom Hook][reacthttpcustomhook] | React Custom Hook HTTP fetch |
 | [React Basic Set][reactbasic] | React learning resource set |
@@ -20,6 +21,7 @@
 | [Coming Soon][coming]     | Coming Soon                    |
 
 [reactbasic]: https://github.com/adityahimaone/Task-Frontend-Alterra
+[reactbuiltinhook]: https://github.com/adityahimaone/ReactJS-Resource/tree/react-builtin-hook
 [reactcustomhook]: https://github.com/adityahimaone/ReactJS-Resource/tree/react-custom-hooks
 [reacthttpcustomhook]: https://github.com/adityahimaone/ReactJS-Resource/tree/react-http-custom-hooks
 [reduxthunk]: https://github.com/adityahimaone/ReactJS-Resource/tree/redux-thunk
