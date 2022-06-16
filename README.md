@@ -9,6 +9,8 @@
 | Content                   | Description                    |
 | ------------------------- | ------------------------------ |
 | [React Basic Set][reactbasic] | React learning resource set |
+| [React HTTP Custom Hook][reacthttpcustomhook] | React Custom Hook HTTP fetch |
+| [React Basic Set][reactbasic] | React learning resource set |
 | [Redux Thunk][reduxthunk] | Fetching API using Redux Thunk |
 | [Google Auth][googleauth] | React Google Auth |
 | [React Typescript][reacttypescript] | Learn Basic Typescript |
@@ -17,6 +19,7 @@
 | [Coming Soon][coming]     | Coming Soon                    |
 
 [reactbasic]: https://github.com/adityahimaone/Task-Frontend-Alterra
+[reacthttpcustomhook]: https://github.com/adityahimaone/ReactJS-Resource/tree/react-http-custom-hooks
 [reduxthunk]: https://github.com/adityahimaone/ReactJS-Resource/tree/redux-thunk
 [googleauth]: https://github.com/adityahimaone/react-oauth
 [datamediahandling]: https://github.com/adityahimaone/next-data-media-handling
