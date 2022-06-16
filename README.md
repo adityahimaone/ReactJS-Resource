@@ -13,10 +13,10 @@
 | [React Builtin Hook][reactbuiltinhook] | UseReducer &  UseContext |
 | [React Custom Hook][reactcustomhook] | React Custom Hook |
 | [React HTTP Custom Hook][reacthttpcustomhook] | React Custom Hook HTTP fetch |
-| [React Basic Set][reactbasic] | React learning resource set |
 | [Redux Thunk][reduxthunk] | Fetching API using Redux Thunk |
 | [Google Auth][googleauth] | React Google Auth |
 | [React Typescript][reacttypescript] | Learn Basic Typescript |
+| [React Typescript Context][reacttypescriptcontext] | React Typescript Context |
 | [React Typescript Crud][reacttypescriptcrud] | Learn Basic CRUD Typescript |
 | [Data Visualization & Media Handling][datamediahandling] | NextJS data visualization using ChartJS, Media Handling, & CRUD|
 | [Coming Soon][coming]     | Coming Soon                    |
@@ -30,5 +30,6 @@
 [googleauth]: https://github.com/adityahimaone/react-oauth
 [datamediahandling]: https://github.com/adityahimaone/next-data-media-handling
 [reacttypescript]: https://github.com/adityahimaone/learn-typescript
+[reacttypescriptcontext]: https://github.com/adityahimaone/ReactJS-Resource/tree/react-typescript-context
 [reacttypescriptcrud]: https://github.com/adityahimaone/Patientor-TS
 [coming]: https://github.com/adityahimaone/ReactJS-Resource/tree/redux-thunk
