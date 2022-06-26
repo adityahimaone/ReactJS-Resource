@@ -10,6 +10,8 @@ const AuthForm = () => {
   const passwordInputRef = useRef();
 
   const [isLogin, setIsLogin] = useState(true);
+  const [errorMessage, setErrorMessage] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
 
   const switchAuthModeHandler = () => {
     setIsLogin((prevState) => !prevState);
@@ -22,6 +24,8 @@ const AuthForm = () => {
     const enteredPassword = passwordInputRef.current.value;
 
     // validation
+
+    setIsLogin(true);
     if (isLogin) {
     } else {
       axios
@@ -34,13 +38,18 @@ const AuthForm = () => {
           }
         )
         .then((res) => {
-          if (res.ok) {
-            // ..
-          } else {
-            res.then((error) => {
-              console.log(error);
-            });
+          console.log(res);
+        })
+        .catch((err) => {
+          console.log(err.response.data.error.message);
+          if (err.response.data.error.message) {
+            setErrorMessage(err.response.data.error.message);
+            alert(err.response.data.error.message);
           }
+        })
+        .finally(() => {
+          // alert(errorMessage);
+          setIsLoading(false);
         });
     }
   };
@@ -48,6 +57,7 @@ const AuthForm = () => {
   return (
     <section className={classes.auth}>
       <h1>{isLogin ? "Login" : "Sign Up"}</h1>
+      <h5 style={{ color: "white" }}>{errorMessage}</h5>
       <form onSubmit={submitHandler}>
         <div className={classes.control}>
           <label htmlFor="email">Your Email</label>
@@ -63,7 +73,10 @@ const AuthForm = () => {
           />
         </div>
         <div className={classes.actions}>
-          <button>{isLogin ? "Login" : "Create Account"}</button>
+          {!isLoading && (
+            <button>{isLogin ? "Login" : "Create Account"}</button>
+          )}
+          {isLoading && <p>Loading...</p>}
           <button
             type="button"
             className={classes.toggle}
