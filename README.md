@@ -14,6 +14,7 @@
 | [React Custom Hook][reactcustomhook] | React Custom Hook |
 | [React HTTP Custom Hook][reacthttpcustomhook] | React Custom Hook HTTP fetch |
 | [Redux Thunk][reduxthunk] | Fetching API using Redux Thunk |
+| [React Auth Firebase Mail ][reactauthfirebasemail] | React Auth Firebase using Mail |
 | [Google Auth][googleauth] | React Google Auth |
 | [React Typescript][reacttypescript] | Learn Basic Typescript |
 | [React Typescript Context][reacttypescriptcontext] | React Typescript Context |
@@ -27,6 +28,7 @@
 [reactcustomhook]: https://github.com/adityahimaone/ReactJS-Resource/tree/react-custom-hooks
 [reacthttpcustomhook]: https://github.com/adityahimaone/ReactJS-Resource/tree/react-http-custom-hooks
 [reduxthunk]: https://github.com/adityahimaone/ReactJS-Resource/tree/redux-thunk
+[reactauthfirebasemail]: https://github.com/adityahimaone/ReactJS-Resource/tree/react-auth-firebase-mail
 [googleauth]: https://github.com/adityahimaone/react-oauth
 [datamediahandling]: https://github.com/adityahimaone/next-data-media-handling
 [reacttypescript]: https://github.com/adityahimaone/learn-typescript
