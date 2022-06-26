@@ -17,6 +17,30 @@ const AuthForm = () => {
     setIsLogin((prevState) => !prevState);
   };
 
+  const authFetch = (url, email, password) => {
+    axios
+      .post(url, {
+        email: email,
+        password: password,
+        returnSecureToken: true,
+      })
+      .then((res) => {
+        console.log(res);
+        setErrorMessage("");
+      })
+      .catch((err) => {
+        console.log(err.response.data.error.message);
+        if (err.response.data.error.message) {
+          setErrorMessage(err.response.data.error.message);
+          alert(err.response.data.error.message);
+        }
+      })
+      .finally((res) => {
+        // alert(errorMessage);
+        setIsLoading(false);
+      });
+  };
+
   const submitHandler = (event) => {
     event.preventDefault();
 
@@ -24,33 +48,14 @@ const AuthForm = () => {
     const enteredPassword = passwordInputRef.current.value;
 
     // validation
-
+    let url = `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${API_KEY}`;
     setIsLogin(true);
     if (isLogin) {
+      url = `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${API_KEY}`;
+      authFetch(url, enteredEmail, enteredPassword);
     } else {
-      axios
-        .post(
-          `https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=${API_KEY}`,
-          {
-            email: enteredEmail,
-            password: enteredPassword,
-            returnSecureToken: true,
-          }
-        )
-        .then((res) => {
-          console.log(res);
-        })
-        .catch((err) => {
-          console.log(err.response.data.error.message);
-          if (err.response.data.error.message) {
-            setErrorMessage(err.response.data.error.message);
-            alert(err.response.data.error.message);
-          }
-        })
-        .finally(() => {
-          // alert(errorMessage);
-          setIsLoading(false);
-        });
+      url = `https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=${API_KEY}`;
+      authFetch(url, enteredEmail, enteredPassword);
     }
   };
 
