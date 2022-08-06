@@ -3,9 +3,8 @@ import { useAppSelector, useAppDispatch } from "../../app/hooks";
 import { fetchUsers } from "./usersSlice";
 
 function Users(): JSX.Element {
-    const dispatch = useAppDispatch();
+  const dispatch = useAppDispatch();
   const users = useAppSelector((state) => state.users);
-
 
   const { loading, data, error } = users;
 
