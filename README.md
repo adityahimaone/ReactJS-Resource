@@ -14,6 +14,7 @@
 | [React Builtin Hook][reactbuiltinhook] | UseReducer &  UseContext |
 | [React Custom Hook][reactcustomhook] | React Custom Hook |
 | [React HTTP Custom Hook][reacthttpcustomhook] | React Custom Hook HTTP fetch |
+| [Redux Toolkit Async Thunk][reduxtoolkitasyncthunks] | Redux Toolkit Async Thunk using Typescript |
 | [Redux Thunk][reduxthunk] | Fetching API using Redux Thunk |
 | [React Auth Firebase Mail ][reactauthfirebasemail] | React Auth Firebase using Mail |
 | [Google Auth][googleauth] | React Google Auth |
@@ -29,6 +30,7 @@
 [reactbuiltinhook]: https://github.com/adityahimaone/ReactJS-Resource/tree/react-builtin-hook
 [reactcustomhook]: https://github.com/adityahimaone/ReactJS-Resource/tree/react-custom-hooks
 [reacthttpcustomhook]: https://github.com/adityahimaone/ReactJS-Resource/tree/react-http-custom-hooks
+[reduxtoolkitasyncthunks]: https://github.com/adityahimaone/ReactJS-Resource/tree/react-rtx-async-thunks
 [reduxthunk]: https://github.com/adityahimaone/ReactJS-Resource/tree/redux-thunk
 [reactauthfirebasemail]: https://github.com/adityahimaone/ReactJS-Resource/tree/react-auth-firebase-mail
 [googleauth]: https://github.com/adityahimaone/react-oauth
