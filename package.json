@@ -8,7 +8,8 @@
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^1.6.1",
+    "@reduxjs/toolkit": "^1.8.3",
+    "axios": "^0.27.2",
     "react": "^18",
     "react-dom": "^18",
     "react-redux": "^7.2.6"
