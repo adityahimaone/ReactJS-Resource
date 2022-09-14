@@ -1,9 +1,13 @@
 # ReactJS Learning Resource
+This learning resource is collected at a certain time
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
+## Study
+| Content                   | Link                           | Description |
+| ------------------------- | ------------------------------ | ------------ |
+| The JS Knowledge MAP      | [JS Knowledge Map]             | This knowledge map shows most of the topics you need to know about when learning modern JavaScript. |
+| The Modern JavaScript Tutorial | [Javascript Info]         | How it's done now. From the basics to advanced topics with simple, but detailed explanations.|
+| Free Course JS Scrimba    | [Scrimba Learn Javascript]     | Learn the basics of JavaScript by solving 140+ interactive coding challenges and building three fun projects. |
+| JavaScript Snippets       | [Javascript Snippets]          | The JavaScript snippet collection contains a wide variety of ES6 helper functions. |
 ## Resource
 
 | Content                   | Description                    |
@@ -24,6 +28,11 @@
 | [Data Visualization & Media Handling][datamediahandling] | NextJS data visualization using ChartJS, Media Handling, & CRUD|
 | [Coming Soon][coming]     | Coming Soon                    |
 
+[JS Knowledge Map]: https://learnjavascript.online/knowledge-map.html
+[Javascript Info]: https://javascript.info/
+[Scrimba Learn Javascript]: https://scrimba.com/learn/learnjavascript
+[Javascript Snippets]: https://www.30secondsofcode.org/js/p/1
+
 [reactbasic]: https://github.com/adityahimaone/Task-Frontend-Alterra
 [reactusememo]: https://github.com/adityahimaone/ReactJS-Resource/tree/react-usememo
 [reactoptimization]: https://github.com/adityahimaone/ReactJS-Resource/tree/react-optimization
@@ -39,3 +48,5 @@
 [reacttypescriptcontext]: https://github.com/adityahimaone/ReactJS-Resource/tree/react-typescript-context
 [reacttypescriptcrud]: https://github.com/adityahimaone/Patientor-TS
 [coming]: https://github.com/adityahimaone/ReactJS-Resource/tree/redux-thunk
+
+
