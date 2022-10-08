@@ -8,6 +8,7 @@ This learning resource is collected at a certain time
 | The Modern JavaScript Tutorial | [Javascript Info]         | How it's done now. From the basics to advanced topics with simple, but detailed explanations.|
 | Free Course JS Scrimba    | [Scrimba Learn Javascript]     | Learn the basics of JavaScript by solving 140+ interactive coding challenges and building three fun projects. |
 | JavaScript Snippets       | [Javascript Snippets]          | The JavaScript snippet collection contains a wide variety of ES6 helper functions. |
+| Javascript & React Pattren | [Javascript & React Pattren]  | free online resource on design patterns and component patterns for building powerful web apps with vanilla JavaScript and React. |
 ## Resource
 
 | Content                   | Description                    |
@@ -37,6 +38,7 @@ This learning resource is collected at a certain time
 [Javascript Info]: https://javascript.info/
 [Scrimba Learn Javascript]: https://scrimba.com/learn/learnjavascript
 [Javascript Snippets]: https://www.30secondsofcode.org/js/p/1
+[Javascript & React Pattren]: https://javascriptpatterns.vercel.app/patterns
 
 [reactbasic]: https://github.com/adityahimaone/Task-Frontend-Alterra
 [reactusememo]: https://github.com/adityahimaone/ReactJS-Resource/tree/react-usememo
