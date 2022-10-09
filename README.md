@@ -34,6 +34,39 @@ This learning resource is collected at a certain time
 | ------------------------- |  ------------ |
 | [Learn Story Book][learn-storybook] | Storybook is a tool for UI development. It makes development faster and easier by isolating components. |
 
+## Library Super Helpful
++ Styling (Basic)
+  + [TailwindCSS](https://tailwindcss.com/) | CSS Ultilities
+  + [React Bootstrap](https://react-bootstrap.github.io/)
+  + [Styled Component](https://styled-components.com/)
++ Framework CSS
+  + [Material UI](https://mui.com/)
+  + [Chakra UI](https://chakra-ui.com/)
+  + [Ant Design](https://ant.design/)
+  + [Base Web](https://baseweb.design/) | Uber
+  + [Fluent UI](https://developer.microsoft.com/en-us/fluentui#/) | Microsoft
+  + [Vecha UI](https://www.vechaiui.com/)
+  + [Grommet](https://v2.grommet.io/)
+  + [Semantic UI](https://react.semantic-ui.com/)
+  + [Onsen UI](https://onsen.io/react/)
+  + [Material Tailwind](https://www.material-tailwind.com/docs/react/installation)
+  + [Evergreen](https://evergreen.segment.com/)
++ Form
+  + [React Hook Form](https://react-hook-form.com/)
+  + [Formik](https://formik.org/)
++ Table
+  + [React Table](https://tanstack.com/table/v8/)
++ Charts
+  + [Recharts](https://recharts.org/)
+  + [Chart JS](https://www.chartjs.org/)
++ Animation
+  + [React Spring](https://react-spring.dev/)
++ Drag & Drop
+  + [React Beautiful DnD](https://github.com/atlassian/react-beautiful-dnd)
++ Utils
+  + [React i18next](https://react.i18next.com/) | react-i18next is a powerful internationalization framework
+
+
 [JS Knowledge Map]: https://learnjavascript.online/knowledge-map.html
 [Javascript Info]: https://javascript.info/
 [Scrimba Learn Javascript]: https://scrimba.com/learn/learnjavascript
