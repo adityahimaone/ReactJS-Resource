@@ -34,6 +34,11 @@ This learning resource is collected at a certain time
 | ------------------------- |  ------------ |
 | [Learn Story Book][learn-storybook] | Storybook is a tool for UI development. It makes development faster and easier by isolating components. |
 
+## Component
+| Content                   | Description |
+| ------------------------- |  ------------ |
+| [React Slider][react-slider] | React Slider from scratch |
+
 ## Library Super Helpful
 + Styling (Basic)
   + [TailwindCSS](https://tailwindcss.com/) | CSS Ultilities
@@ -90,5 +95,7 @@ This learning resource is collected at a certain time
 [coming]: https://github.com/adityahimaone/ReactJS-Resource/tree/redux-thunk
 
 [learn-storybook]: https://github.com/adityahimaone/ReactJS-Resource/tree/learn-storybook
+
+[react-slider]: https://github.com/adityahimaone/ReactJS-Resource/tree/component-slider
 
 
